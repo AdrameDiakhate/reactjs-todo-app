@@ -42,7 +42,7 @@ const deleteTask=(id)=>{
             </DialogContent>
             <DialogActions>
             <Button onClick={
-                 ()=> { 
+                 ()=> {
                     modal(false)
                     getTasks()
                 }} color="primary">
